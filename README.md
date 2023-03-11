@@ -1,6 +1,5 @@
 # **Adding_Different_Place**
-The web app simply allow the user to add the the places they liked . The use can also look after the the places added
-by the other users.
+The web app that allow the user to add the places they liked and let other people know about this place. The user can also look after the places added by the other users.
 
 ***
 
