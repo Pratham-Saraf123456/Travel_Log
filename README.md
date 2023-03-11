@@ -18,7 +18,8 @@ by the other users.
 *** 
 
 ## Snapshot of the Website
-![Home Page](<img width="1010" alt="p1" src="https://user-images.githubusercontent.com/77691890/224472930-33311142-6d99-45c1-bbd6-b83f5eac2e85.png">)
+![Home Page]
+<img width="1010" alt="p1" src="https://user-images.githubusercontent.com/77691890/224472930-33311142-6d99-45c1-bbd6-b83f5eac2e85.png">
 ![Login Page](<img width="1032" alt="p2" src="https://user-images.githubusercontent.com/77691890/224473056-071dc674-8808-42f7-b66e-5e64dca46d53.png">
 )
 ![Sign Up](<img width="949" alt="p3" src="https://user-images.githubusercontent.com/77691890/224473090-a915f53b-5557-462e-a61d-c6eea039ea24.png">)
