@@ -50,7 +50,7 @@ const placeRoutes = require('./routes/places-routes');
 const userRoutes = require('./routes/user-routes');
 const HttpError = require('./models/http-error');
 
-const url =`mongodb+srv://Nishank:2e6qinegEshobrmn@cluster0.sio3l.mongodb.net/mern?retryWrites=true&w=majority`;
+const url =`mongodb+srv://username:password@cluster0.sio3l.mongodb.net/mern?retryWrites=true&w=majority`;
 
 const app = express();
 
