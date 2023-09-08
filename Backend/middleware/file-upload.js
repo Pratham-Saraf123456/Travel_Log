@@ -1,13 +1,4 @@
-/*
-    constain logic to extract the middleware  
 
-    now we need to configure the multer to tell where to store something and to 
-    also tell which file to accept 
-    first seting the limit 
-
-    the destination takes three argument the req,file and cb(callback) file that was extracted 
-
-*/
 
 const multer = require('multer');
 const {v1 : uuid} = require('uuid');
