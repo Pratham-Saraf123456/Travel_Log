@@ -1,15 +1,4 @@
-/*
-    we have the controller folder that contain the complete logic of the what to 
-    do when a particular route is renderd or asked for
 
-    >>>
-        getters remove the _(underscore) from the id
-
-    >>>
-        "populate" is a function used with the other mthods to extract the 
-        content of the reference modals
-    
-*/
 
 const fs = require('fs');
 
@@ -221,14 +210,5 @@ exports.deletePlace = async (req,res,next) => {
 }
 
 
-/*
- or define the function as const fun = () => {}
 
- and then export
- exports.fun1 = fun1
- exports.fun2 = fun2 
- .....
-
-
-*/
 
