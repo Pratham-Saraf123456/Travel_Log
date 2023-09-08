@@ -1,43 +1,4 @@
-/*
-    connecting the backend with the database
 
-    as whole of my file and folder uses database so we must connect the database right at the 
-    starting of the server
-
-    >>>>
-    Note 
-        in order to remove the cors error of browser we need to add certain header to
-        our response sender to the frontend 
-
-
-
-    >>>> Note ::
-    Multer ;; an important third party package that help us to store the multipart
-    form-data as till now we can parse the json format data but now we are going to 
-    switch to this form-data and advantage of this is that it allow us to parser
-    both the text and file data or binary data 
-
-
-    >>>
-    we can use fs a file system used to interact with the file and folder
-    and also note that multer add the 'file' property to the 'req'  
-
-
-    >>>>>>>> IMORTANT THING TO NOTE
-    none of the file from our server is accessible outside the server
-    as for any request to our server it passes to the middleware and check whether the 
-    url is valid or not 
-
-    but for our image we dont have any middleware that will tell this so inorder
-    to grant access we need to add a new middleware 
-    we will register a url such that if any url that conatain upload/images
-    it will grant the access 
-    and we register a express.static middleware which return a file only return a file and
-    not execute this and 
-    in static we need to tell which file from which folder do we need to return and
-    the path must be an absolute path and we will use the "path" package to form this
-
-*/
 
 const fs = require('fs');
 const path = require('path');
