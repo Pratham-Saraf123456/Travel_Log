@@ -1,10 +1,4 @@
-/*
-    OPTIONS method need to be checked as it is the method that is send when the 
-    browser want to send the get but not is get request so 
-    for this option we need not to check the authorization so send 
-    move to the next call 
 
-*/
 
 const jwt = require('jsonwebtoken');
 const HttpError = require('../models/http-error');
