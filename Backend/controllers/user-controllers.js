@@ -1,21 +1,4 @@
-/*
-    controller conating the logic for all the user
-    now we are going to encrypt the password before storing it to the database
-    to encrypt we will use the package named "bcryptjs" 
 
-    the becrypt.hash take two argument first the password and the second is 
-    the salt value and resemble the strength of hash value
-    
-    >>> 
-    now after encrypting the password one another task is to
-    generate the token for the particular user
-    using the "jsonwebtoken" package
-    
-    jwt take 3 argument first one may be a string/object/boolean 
-    second argument is the secret key which is very important and must not be shared to 
-    anyone
-    third is simple object notation
-*/
 
 const {v4 : uuid} = require('uuid');
 const {validationResult} = require('express-validator');
@@ -155,6 +138,6 @@ exports.postLogin = async  (req,res,next) => {
         email:existUser.email,
         token:token
     })
-    // res.json({message :'User Logged in successfully',user:existUser.toObject({getters:true})});
+    
 }
 
